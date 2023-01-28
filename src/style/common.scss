@@ -1,0 +1,41 @@
+/*
+ * @Author: Jin Biao
+ * @Date: 2022-03-08 16:59:36
+ * @LastEditTime: 2022-03-10 16:01:37
+ * @Description:  初始化公共样式
+ */
+
+// nvue不能用标签命名样式
+
+/* #ifndef APP-NVUE */
+view,
+text,
+button,
+image,
+textarea,
+scroll-view,
+input {
+	box-sizing: border-box;
+}
+.page {
+  box-sizing: border-box;
+  height: 100vh;
+}
+image {
+	display: block;
+}
+button {
+	margin: 0;
+	padding: 0;
+	background-color: #FFFF;
+}
+button::after {
+	border: none;
+} 
+input{
+    background: transparent;
+}
+button{
+    border:none;
+}
+ /* #endif */

@@ -1,0 +1,62 @@
+{
+  "pages": [
+		{
+		  "path": "pages/index/index",
+		  "style": {
+		    "navigationBarTitleText": "周边管控"
+		  }
+		},
+		{
+		  "path": "pages/establish/index",
+		  "style": {
+		    "navigationBarTitleText": "创建团队"
+		  }
+		},
+		{
+		  "path": "pages/user/index",
+		  "style": {
+		    "navigationBarTitleText": "完善个人信息"
+		  }
+		},
+		{
+		  "path": "pages/join/index",
+		  "style": {
+		    "navigationBarTitleText": "加入团队"
+		  }
+		},
+		{
+		  "path": "pages/member/index",
+		  "style": {
+		    "navigationBarTitleText": "成员列表"
+		  }
+		},
+		{
+		  "path": "pages/agreement/index",
+		  "style": {
+		    "navigationBarTitleText": "用户与隐私协议"
+		  }
+		}
+  ],
+	"permission": {
+	  "scope.userLocation": {
+	    "desc": "你的位置信息将用于小程序位置接口的效果展示"
+	  }
+	},
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Demo",
+    "navigationBarBackgroundColor": "#F7FAFF",
+    "backgroundColorTop": "#F7FAFF",
+    "backgroundColorBottom": "#F7FAFF",
+    "backgroundColor": "#F7FAFF",
+    "pageOrientation": "portrait",
+    "app-plus": {
+      "bounce": "none"
+    }
+  },
+  "easycom": {
+    "autoscan": true,
+    "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue",
+    "gwin-(.*)": "@/components/gwin-$1/gwin-$1.vue"
+  }
+}
